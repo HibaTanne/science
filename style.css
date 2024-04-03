@@ -1,0 +1,293 @@
+
+
+/* @media screen and (max-width: 768px) {
+    .navbar1 {
+        flex-direction: column; 
+    }
+    .navbar1 .logo, .navbar1 .spacer, .navbar1 .language-selector {
+        margin-bottom: 10px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo1 {
+        max-width: 100px; 
+    }
+    .navbar ul {
+        flex-direction: column; 
+        padding-left: 0; 
+    }
+    .navbar ul li {
+        margin: 0;
+        text-align: center; 
+    }
+} */
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/red-dead-redemption-2-header\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-color:#F5F5F5;;
+    background-blend-mode: multiply;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #393939;
+  }
+  .navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: white;
+}
+  
+  .navbar ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    color: beige;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+  }
+  .home a {
+    background-color:#60B45A;
+   
+}
+  
+
+  body {
+    margin: 30px;
+    padding: auto;
+    font-family: Arial, sans-serif;
+}
+
+
+
+   
+
+
+.logo img {
+    height: 40px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #21577A;
+    color: white;
+    cursor: pointer;
+    border-radius:  #21577A 10 px;
+    font-size: 16px;
+}
+
+.search-container {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 5px;
+    background-color: #555
+}
+
+.search-icon {
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.language-selector select {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    margin: 20px 31px;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: x-large;
+    color: mintcream;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .text {
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    text-align: center; 
+    max-width: 100%; 
+    font-size: 80px;
+    line-height: 1.1em;
+}
+
+
+
+
+.image-containner {
+    flex: 1;
+}
+
+
+.image-container {
+    position: relative; 
+}
+
+.image-container img {
+    position: absolute; 
+}
+
+.image-container img:first-child {
+    z-index: 1; 
+    
+    right: 20px; 
+}
+
+.image-container img:last-child {
+    z-index: 2; 
+    top: 150px; 
+    right: 200px; 
+}
+.wrap {
+    display: flex;
+    flex-direction: row;
+    padding:  40px;
+
+}
+.textdescri {
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 0; 
+}
+
+.tittledescri {
+    font-size: 25px;
+    display: block;
+    white-space: pre-wrap;
+    text-align: left;
+    padding-top:  90px;
+    margin: 0 80px;
+}
+
+.paragraphe {
+    font-size: 20px;
+    line-height:30px; 
+    text-align: left;
+    white-space: pre-wrap;
+    margin: 20px;
+    padding-top: -15px; 
+}
+
+
+
+.subtitle{
+    text-align: left;
+    padding: 50px 0;
+    color: #21577A;
+    font-size: 20px;
+}
+.headlines_section{
+    margin: auto;
+    padding:  30px;
+    
+}
+ .headlines {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    justify-items: start; 
+ }
+
+.headline{
+    gap: 10px;
+    display: grid;
+    cursor: pointer;
+    width: 80%; 
+}
+
+.image_headlines {
+    max-width: 90%; 
+    height: auto; 
+    display: block; 
+    border-radius: 10px;
+
+}
+.subtitle_head{
+    font-size: 15px;
+    
+    
+}
+.last_section{
+padding: 50px;
+margin: 50px;
+
+}
+.groupe_sec{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.last_tittle{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
